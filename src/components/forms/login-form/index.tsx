@@ -33,7 +33,7 @@ export const LoginForm = () => {
     }
 
     return (
-        <Card className='mx-5 md:mx-10 lg:mx-28'>
+        <Card className='max-w-[600px]'>
             <CardHeader className='text-center space-y-3'>
                 <h1 className='text-4xl font-bold text-[#636363]'>Добро пожаловать</h1>
                 <p className='text-base font-extralight'>До соединения с лучшими профессионалами остался 1 шаг</p>

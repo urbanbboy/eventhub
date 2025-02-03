@@ -38,13 +38,13 @@ export const RegisterForm = () => {
     }
 
     return (
-        <Card className='mx-5 py-5 md:mx-10 lg:mx-28'>
+        <Card className='mx-5 max-w-[600px]'>
             <CardHeader className='px-12 space-y-3'>
                 <h1 className='text-4xl font-bold text-[#636363]'>Давайте знакомиться</h1>
             </CardHeader>
             <CardContent className='px-12'>
                 <Form {...form}>
-                    <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-5'>
+                    <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-1'>
                         <div className='grid grid-cols-1 md:grid-cols-2 space-x-5'>
                             <FormField
                                 control={form.control}
@@ -185,8 +185,9 @@ export const RegisterForm = () => {
                             />
                         </div>
 
-                        <div className='grid grid-cols-1 md:grid-cols-2 space-x-16'>
+                        <div className='flex justify-between pt-5   '>
                             <Button
+                                size={'xl'}
                                 variant={'gray'}
                                 type='submit'
                             >
