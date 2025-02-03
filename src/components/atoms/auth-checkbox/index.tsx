@@ -5,7 +5,7 @@ interface AuthCheckbox {
     description?: string;
 }
 
-export const AuthCheckbox = ({}: ) => {
+export const AuthCheckbox = () => {
     return (
         <div className="items-top flex space-x-2">
             <Checkbox id="terms1" />
